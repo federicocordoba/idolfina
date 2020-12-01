@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Idolfina Peluquería</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		
+		<!-- Para Fuente -->
+		<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet"> 
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+		
+		<!-- Para Iconos -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		
+		<!-- JAVASCRIPT -->
+		<script src="js/achivo.js"></script>
+		<!--<script>
+				
+			var num = 1;
+			function anterior(){
+				num++;
+				if(num>5){
+					num=1;
+			}
+			//var foto = document.getElementById("idFoto");
+			document.getElementById("idFoto").src = "img/alisado/alisado" + num +".jpg";	
+			}
+			function siguiente(){
+			num--;
+			if(num<1){
+				num=5;
+			}
+			//var foto = document.getElementById("idFoto");
+			document.getElementById("idFoto").src = "img/alisado/alisado" + num + ".jpg";	
+			}
+		</script>-->
+		
+	</head>
+	<body id="Inicio">
+		<!-- CABECERA -->
+		<header >
+			<div class="logo">
+				<div><img src="img/Logo/logo2.jpg" alt="Logo"></div>
+				<h1 >Idolfina</h1>
+			</div>
+			
+			
+			<nav>
+				<ul>
+					<li><a href="#Inicio">INICIO</a></li>
+					<li><a href="nosotros.html"#nosotros>NOSOTROS</a></li>
+					<li><a href="#Alizado">ALIZADO/BOTOX</a></li>
+					<li><a href="#Color">COLOR</a></li>
+					<li><a href="#Corte">CORTE/PEINADOS</a></li>
+					<li><a href="#Reflejos">REFLEJOS</a></li>
+					<li><a href="productos.html#productos">PRODUCTOS</a></li>
+					<li><a href="#Contacto">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="imgppal">
+			<img src="img/Peluqueria/peluqueria2.jpg">
+		</div>
+		<!-- ARTICULO -->
+		<article>
+			<section >
+				<div class="textalisado" id="Alizado">
+					<h1 >Alisado/Botox</h1>
+					<p>El alisado de pelo es una técnica que permite arreglar la apariencia de tu cabello, controlando el frizz, y convertirlo de un cabello esponjoso a encrespado a uno muy liso.</p>
+					<p>El botox capilar es un tratamiento a base de ingredientes naturales que refuerza la fibra capilar, aporta hidratación, nutre y da brillo. Aunque es conocido como botox, no contiene esta toxina; pero, se le llama así por su efecto rejuvenecedor del cabello.</p>
+				</div>
+				<div class="imgalisado" >
+					<img src="img/alisado/alisado1.jpg" alt="Alisado" id="idAlisado">
+					<form name="formImagenes">
+						<input type="button" name="nameAnterior" value="<<ANTERIOR" id="idAnterior" onclick="anteriorAlisado()"> 
+						<!--<i class="fas fa-angle-left"></i>-->
+						<input type="button" name="nameAnterior" value="SIGUIENTE>>" id="idSiguiente" onclick="siguienteAlisado()"> 
+						<!--<i class="fas fa-angle-right"></i>-->
+					</form>
+				</div>
+			</section>
+			<section id="Color">
+				<div class="imgcolor">
+					<img src="img/color/color1.jpg" alt="Color" id="idColor">
+					<form name="formImagenes">
+						<input type="button" name="nameAnterior" value="<<ANTERIOR" id="idAnterior" onclick="anteriorColor()"> 
+						<!--<i class="fas fa-angle-left"></i>-->
+						<input type="button" name="nameAnterior" value="SIGUIENTE>>" id="idSiguiente" onclick="siguienteColor()"> 
+						<!--<i class="fas fa-angle-right"></i>-->
+					</form>
+				</div>
+				<div class="textcolor">
+					<h1 >Color</h1>
+					<p>La tintura para cabello, o tinte de cabello, es una preparación química que se utiliza para cambiar el color del cabello de una persona. La tintura para cabello se utiliza para cubrir las canas dado que las canas son un signo de edad avanzada.</p>
+				</div>	
+			</section>
+			<section id="Corte">
+				<div class="textcorte">
+					<h1 >Corte/Peinados</h1>
+					<p>Un corte de cabello describe el acortamiento o la modificación del tipo de peinado del cabello. La actividad de la peluquería o salón de belleza supone arreglar los cabellos y modificar con ello el aspecto exterior de la persona. Implica diferentes tipos de intervenciones sobre los cabellos.</p>
+					
+				</div>
+				<div class="imgcorte">
+					<img src="img/corte/corte8.jpg" alt="Corte" id="idCorte">
+					<form name="formImagenes">
+						<input type="button" name="nameAnterior" value="<<ANTERIOR" id="idAnterior" onclick="anteriorCorte()"> 
+						<!--<i class="fas fa-angle-left"></i>-->
+						<input type="button" name="nameAnterior" value="SIGUIENTE>>" id="idSiguiente" onclick="siguienteCorte()"> 
+						<!--<i class="fas fa-angle-right"></i>-->
+					</form>
+				</div>
+			</section>
+			<section id="Reflejos">
+				<div class="imgreflejos">
+					<img src="img/reflejos/reflejos1.jpg" alt="Reflejos" id="idReflejos">
+					<form name="formImagenes">
+						<input type="button" name="nameAnterior" value="<<ANTERIOR" id="idAnterior" onclick="anteriorReflejos()"> 
+						<!--<i class="fas fa-angle-left"></i>-->
+						<input type="button" name="nameAnterior" value="SIGUIENTE>>" id="idSiguiente" onclick="siguienteReflejos()"> 
+						<!--<i class="fas fa-angle-right"></i>-->
+					</form>
+				</div>
+				<div class="textreflejos">
+					<h1 >Reflejos</h1>
+					<p>Los reflejos son una técnica coloración permanente que consiste en aclarar zonas de tu cabello para lucir un bonito contraste. ... Respetar el color natural del cabello es, por lo tanto, asegurar la salud de tu materia. También debes saber que los reflejos comprenden numerosos tonos, pero no demasiados colores.</p>
+				</div>	
+			</section> 
+			<section>
+				<div class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13098.535796671156!2d-64.58783835603491!3d-34.84029497499532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95dab8929251717f%3A0xeb960fdf0764957d!2sVilla%20Huidobro%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1606079304006!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</section>
+		</article>
+		
+		<!-- PIE DE PAGINA -->
+		<footer>
+			<div id="fotoPie">
+				<div class="rows">
+					<div class="columna info">
+						<h1 class="margen">Idolfina</h1>
+						<h3 class="margen">&nbsp;&nbsp;&nbsp;&nbsp;PELUQUERIA</h3>
+						<h4 class="margen"><i class="fal fa-map-marker-alt"></i>&nbsp;&nbsp;Chacabuco 453, Villa Huidobo, Córdoba</h4>
+						<h4 class="margen"><i class="fal fa-envelope"></i>&nbsp;&nbsp;&nbsp;idolfina@gmial.com</h4>
+						<h4 class="margen"><i class="fal fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;2302-443698</h4>
+					</div>
+					<div class="columna contacto" id="Contacto">
+						<h1 >CONTACTO</h1>
+						
+						<form action="#" method="get" name="nameForm">
+						<table cellspacing="15px">
+							<tr>
+								<td> <input type="text" name="nameNombre" id="idNombre" size="31" placeholder="Nombre"> </td>
+								<td> <input type="text" name="nameApellido" id="idApellido" size="31" placeholder="Apellido"> </td>
+							</tr>
+							<tr>
+								<td colspan="2"> <input type="email" name="nameEmail" id="idEmail" size="70" placeholder="Dirección de correo electrónico"> </td>
+							</tr>
+							<tr>
+								<td colspan="2" > <textarea rows="6" cols="72" name="nameMensaje" id="idMensaje" placeholder="Mensaje"></textarea> </td>
+							</tr>
+							<tr>
+								<th colspan="2"> <input type="submit" name="nameEnviar" value="Enviar" onclick="enviar()"> </th>
+							</tr>
+						</table>
+						</form>
+						
+					</div>
+				</div>
+				<div class="copyright">
+					Copyright <i class="fas fa-copyright"></i> 2020 Federico Córdoba
+				</div>
+			</div>
+			<!--<div id="grad1">
+				<div><img src="img/love.jpg" ></div>
+			</div>-->
+		</footer>
+	</body>
+</html>

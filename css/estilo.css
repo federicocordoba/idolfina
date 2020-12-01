@@ -1,0 +1,500 @@
+/* PARA LA FUENTE DEL LOGO */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+</style> 
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+html body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+/* CABECERA */
+/*header a:visited{
+	position: relative;
+	top: 80px;
+}*/
+
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #201F23;
+	/*background-attachment: fixed;*/
+	/*background-color: red;*/
+	position: fixed;
+	z-index: 5;
+}
+
+header .logo{
+	width: 440px;
+	height: 80px;
+	float: left;
+	margin: 0px;
+	/*background-color: blue*/
+	/*border: 1px solid orange;*/
+	
+}
+
+header .logo div{
+	width: 70px;
+	height: 65px;
+	/*background-color: red;*/
+	float: left;
+	margin-top:7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 140px;
+	
+}
+
+header .logo  h1{
+	font-family: 'Cabin Sketch', cursive;
+	/*color: #D5BEAB;*/
+	color: #ECCD85;
+	font-size: 60px;
+	float: right;
+	/*font-weight: 100;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/*color: #ffffff;*/
+	/*background-color: red;*/
+}
+
+
+header nav{
+	width: 65%;
+	height: 80px;
+	/*background-color: orange;*/
+	float: right;
+	margin: 0px ;
+	padding-right: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+}
+
+/* MENU DE CABECERA */
+header nav ul{
+	height: 80px;
+	width: 100%;
+	list-style: none;
+	font-weight: bold;
+	float: right;
+	/*border: 2px solid blue;*/
+	margin: 0px;
+	/*background-color: blue;*/
+
+}
+
+
+header nav ul li{
+	
+	height: 17px;
+	float: left;
+	/*background-color: burlywood;*/
+	padding: 0px 10px;
+	margin: 31.5px 15px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header nav ul li a:hover{
+	color: #bcbbbd;
+}
+
+/*.love{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/love.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}*/
+
+/*IMAGEN*/
+div.imgppal{
+	width: 100%;
+	height: 389.8px;
+	/*background-color: orange;*/
+	
+}
+
+.imgppal img{
+	width: 100%;
+	height:100%; 
+}
+
+/* -----------------------------ARTICULO----------------------- */
+
+article{
+	width: 100%;
+	/*height: 900px;*/
+	/*background-color: #8f8f91;*/
+	margin-top: 16px;
+	/*position: relative;*/
+}
+
+article section{
+	width: 100%;
+	height: 480px;
+	/*background-color: orange;*/
+}
+
+/*ALISADO/BOTOX */
+article section .textalisado{
+	width: 60%;
+	height: 480px;
+	/*background-color: beige;*/
+	float: left;
+	/*padding-top:20px;*/
+}
+
+article section  h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 150px;
+	/*color: white*/
+}
+
+article section  p{
+	font-size: 22px;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: #79787b;
+	/*color: white;*/
+}
+
+article section .imgalisado{
+	width: 40%;
+	height: 480px;
+	/*background-color: blue;*/
+	float: right;
+}
+
+article section .imgalisado img{
+	width: 100%;
+	height: 480px;
+}
+
+/*PARA CARRUSEL DE IMAGENES ALISADO*/
+article section .imgalisado{
+	position: relative;
+}
+
+/*article section .imgalisado i{
+	font-size: 60px;
+	
+}*/
+
+article section .imgalisado #idAnterior{
+	position: absolute;
+	top: 230px;
+	left: 17px;
+}
+
+article section .imgalisado #idSiguiente{
+	position: absolute;
+	top: 230px;
+	left: 640px;
+}
+
+/* COLOR */
+article section .textcolor{
+	width: 60%;
+	height: 480px;
+	/*background-color: beige;*/
+	float: right;
+	
+}
+
+article section .imgcolor{
+	width: 40%;
+	height: 480px;
+	/*background-color: blue;*/
+	float: left;
+}
+
+article section .imgcolor img{
+	width: 100%;
+	height: 480px;
+}
+
+/*PARA CARRUSEL DE IMAGENES COLOR*/
+article section .imgcolor{
+	position: relative;
+}
+
+/*article section .imgalisado i{
+	font-size: 60px;
+	
+}*/
+
+article section .imgcolor #idAnterior{
+	position: absolute;
+	top: 230px;
+	left: 17px;
+}
+
+article section .imgcolor #idSiguiente{
+	position: absolute;
+	top: 230px;
+	left: 640px;
+}
+
+/* CORTE/PEINADOS */
+article section .textcorte{
+	width: 60%;
+	height: 480px;
+	/*background-color: beige;*/
+	float: left
+}
+
+article section .imgcorte{
+	width: 40%;
+	height: 480px;
+	/*background-color: blue;*/
+	float: right;
+}
+
+article section .imgcorte img{
+	width: 100%;
+	height: 480px;
+}
+
+/*PARA CARRUSEL DE IMAGENES CORTE*/
+article section .imgcorte{
+	position: relative;
+}
+
+/*article section .imgalisado i{
+	font-size: 60px;
+	
+}*/
+
+article section .imgcorte #idAnterior{
+	position: absolute;
+	top: 230px;
+	left: 17px;
+}
+
+article section .imgcorte #idSiguiente{
+	position: absolute;
+	top: 230px;
+	left: 640px;
+}
+
+/* REFLEJOS/MECHAS LOCALIZADAS */
+article section .textreflejos{
+	width: 60%;
+	height: 480px;
+	/*background-color: beige;*/
+	float: right
+}
+
+article section .imgreflejos{
+	width: 40%;
+	height: 480px;
+	background-color: blue;
+	float: left;
+}
+
+article section .imgreflejos img{
+	width: 100%;
+	height: 480px;
+}
+
+/*PARA CARRUSEL DE IMAGENES REFLEJOS*/
+article section .imgreflejos{
+	position: relative;
+}
+
+/*article section .imgalisado i{
+	font-size: 60px;
+	
+}*/
+
+article section .imgreflejos #idAnterior{
+	position: absolute;
+	top: 230px;
+	left: 17px;
+}
+
+article section .imgreflejos #idSiguiente{
+	position: absolute;
+	top: 230px;
+	left: 640px;
+}
+
+/*--------------------------MAPA------------------------------*/
+article section .mapa iframe{
+	width: 100%;
+	height: 480px;
+	/*margin-top: 8px;*/
+	padding-top: 16px
+}
+
+
+/* --------------------------------PIE DE PAGINA ---------------*/
+footer{
+	width: 100%;
+	background-image: linear-gradient( #79787b ,#4c4b4e , #201f23, #0c0c0e);
+	margin-top: 16px;
+	/*background-color: red;*/
+}
+
+footer #fotoPie{
+	width: 100%;
+	height: 530px;
+	/*background-color: #0c0c0e;*/
+	
+	background-image: url(../img/Peluqueria/love.jpg);
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	/*position: relative;*/
+	/*background-size:cover;*/
+	background-position: center;
+	
+}
+
+footer #fotoPie .rows{
+	width: 100%;
+    height: 500px;
+	/*background-color: orange;*/
+	/*text-align: center;
+	opacity: .3;*/
+	color: white;
+}
+
+footer #fotoPie .rows .columna{
+	width: 50%;
+	height: 500px;
+	/*background-color: beige;*/
+	float: left;
+	/*border: 2px solid while;*/
+}
+
+/*footer #fotoPie .rows .info{
+	background-image: url(../img/Peluqueria/peluqueria4.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-color: red;
+}*/
+
+footer #fotoPie .rows .info .margen{
+	/*background-color: red;*/
+	margin-left: 50px;
+	
+}
+
+footer #fotoPie .rows .info  h1{
+	font-family: 'Cabin Sketch', cursive;
+	color: white;
+	font-size: 50px;
+	/*background-color: red*/
+	margin-top: 140px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-left: 70px;
+}
+
+footer #fotoPie .rows .info  h3{
+	margin-top: -10px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding-left: 70px;
+}
+
+footer #fotoPie .copyright{
+	width: 100%;
+	height: 30px;
+	color: #79787b;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	text-align: center;
+	/*background-color: red;*/
+}
+
+footer #fotoPie .rows .contacto{
+	/*background-color: orange;*/
+	/*opacity: .3;*/
+}
+footer #fotoPie .rows .contacto h1{
+	/*width: 100%;*/
+	/*text-align: center;*/
+	padding-left: 540px;
+	margin-top: 100px;
+	/*background-color: red;*/
+	opacity: 1;
+	/*display: inline-block;*/
+}
+
+footer #fotoPie .rows .contacto table{
+	/*background-color: red;*/
+	float: right;
+	margin-right: 30px;
+	opacity: .3;
+	
+}
+
+footer #fotoPie .rows .contacto table td{
+	padding: 10px;
+	margin: 20px;
+	width: 10px;
+	background-color: white;
+}
+
+footer #fotoPie .rows .contacto table input{
+	border: 0px solid white;
+	background-color: white;
+}
+
+/*footer #fotoPie .rows .contacto table input #idNombre{
+	border: 0px solid white; 
+}*/
+
+footer #fotoPie .rows .contacto table textarea{
+	border: 0px solid white; 
+	background-color: white;
+}
+
+footer #fotoPie .rows .contacto table th{
+	border: 0px solid black; 
+	background-color: transparent;
+	width: 50px;
+	/*padding: 10px;*/
+	margin: 20px;
+	text-align: right;
+}
+
+footer #fotoPie .rows .contacto table th #idEnviar{
+	padding: 10px;
+}
+
+
+/*footer div div img{
+	height: 500px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+
+/* GRADIENTE */
+/*#grad1 {
+  height: 400px;
+  background-color: red; /* For browsers that do not support gradients */
+  /*background-image: linear-gradient( #586E75 ,#201F23 , #000000);
+	border: 3px solid orange;
+}*/

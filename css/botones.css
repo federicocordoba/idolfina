@@ -1,0 +1,66 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn{
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/*TAMAÑO*/
+.btn-pequenio{
+	padding: 2.5px 5px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.btn-pequenio i{
+	font-size: 10px;
+}
+
+.btn-grande{
+	padding: 6px 12px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+
+.btn-grande i{
+	font-size: 17px;
+}
+
+/*TIPOS*/
+.btn-pildoras{
+	border-radius: 30px;
+}
+
+/*COLORES*/
+.btn-primario{
+	background-color: #201F23;
+	color: #e8e8e9;
+}
+
+.btn-primario:hover{
+	background-color: #e8e8e9;
+	color: #201F23;
+}
+
+.btn-positivo{
+	background-color: #f5e6c2;
+	color: #5e5235;
+}
+
+.btn-positivo:hover{
+	background-color: #201F23;
+	color: #f5e6c2;
+}
+
+.btn-negativo{
+	background-color: red;
+	color: white;
+}
+
+.btn-negativo:hover{
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,360 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+</style> 
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html body{
+	margin: 0;
+	padding: 0;
+	
+}
+/* CABECERA */
+/*header a:visited{
+	position: relative;
+	top: 80px;
+}*/
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #201F23;
+	/*background-attachment: fixed;*/
+	/*background-color: red;*/
+	position: fixed;
+	z-index: 10;
+}
+
+header .logo{
+	width: 440px;
+	height: 80px;
+	float: left;
+	margin: 0px;
+	/*background-color: blue*/
+	/*border: 1px solid orange;*/
+	
+}
+
+header .logo div{
+	width: 70px;
+	height: 65px;
+	/*background-color: red;*/
+	float: left;
+	margin-top:7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 140px;
+	
+}
+
+header .logo  h1{
+	font-family: 'Cabin Sketch', cursive;
+	/*color: #D5BEAB;*/
+	color: #ECCD85;
+	font-size: 60px;
+	float: right;
+	/*font-weight: 100;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/*color: #ffffff;*/
+	/*background-color: red;*/
+}
+
+
+header nav{
+	width: 65%;
+	height: 80px;
+	/*background-color: orange;*/
+	float: right;
+	margin: 0px ;
+	padding-right: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+}
+
+/* MENU DE CABECERA */
+header nav ul{
+	height: 80px;
+	width: 100%;
+	list-style: none;
+	font-weight: bold;
+	float: right;
+	/*border: 2px solid blue;*/
+	margin: 0px;
+	/*background-color: blue;*/
+
+}
+
+
+header nav ul li{
+	
+	height: 17px;
+	float: left;
+	/*background-color: burlywood;*/
+	padding: 0px 10px;
+	margin: 31.5px 15px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header nav ul li a:hover{
+	color: #bcbbbd;
+}
+
+/*.love{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/love.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}*/
+
+/*--------------------------------------imgppal--------------------------*/
+body .imgppal{
+	width: 100%;
+	height: 600px;
+	/*background-color: black;*/
+	z-index: -20;
+}
+body .imgppal img{
+	width: 100%;
+	height: 1600px;
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	position: relative;
+	top: -350px
+}
+
+
+
+/*-----------------------------ARTICLE---------------------------*/
+
+article{
+	width: 100%;
+	height: 1280px;
+	background-color: #33313E;
+	position: relative;
+	z-index: 2;
+	top: 155px;
+}
+
+article section{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+}
+
+article section.section_uno_dos{
+	height: 430px;
+}
+
+article section div{
+	width: calc(33.333% - 27px);
+	height: 400px;
+	/*margin: 20px;*/
+	background-color: white;
+	float: left;
+}
+
+
+
+/*----------------------------magin a los div del aticle-----------*/
+article section div.divuno{
+	margin: 20px 10px 10px 20px;
+	background-image: url(../img/productos/Shampooalfaparf.jpg);
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	/*overflow: scroll ;*/
+}
+
+article section div.divuno p{
+	margin: 30px 30px 10px 190px;
+	text-align: justify
+}
+
+article section div.divdos{
+	margin: 20px 10px 10px 10px;
+	background-image: url(../img/productos/shampookleno.jpg);
+	
+}
+
+article section div.divdos p{
+	margin: 30px 30px 10px 350px;
+	text-align: justify
+}
+
+article section div.divtres{
+	margin: 20px 20px 10px 10px;
+	background-image: url(../img/productos/shampoocondicionadorBonmetique.jpg);
+	background-repeat: no-repeat
+}
+article section div.divtres p{
+	margin: 30px 30px 10px 270px;
+	text-align: justify
+}
+
+article section div.divcuatro{
+	margin: 10px 10px 10px 20px;
+	background-image: url(../img/productos/cremaKleno2.jpg);
+	background-repeat: no-repeat
+}
+article section div.divcuatro p{
+	margin: 30px 30px 10px 270px;
+	text-align: justify
+}
+
+article section div.divcinco{
+	margin: 10px 10px 10px 10px;
+	background-image: url(../img/productos/cremaBlindajeCapilar.jpg);
+	background-repeat: no-repeat
+}
+article section div.divcinco p{
+	margin: 30px 30px 10px 420px;
+	text-align: justify
+}
+
+article section div.divseis{
+	margin: 10px 20px 10px 10px;
+	background-image: url(../img/productos/tintura.jpg);
+	background-repeat: no-repeat;
+}
+article section div.divseis p{
+	margin: 30px 30px 10px 390px;
+	text-align: justify
+}
+
+article section div.divsiete{
+	margin: 10px 10px 20px 20px;
+	background-image: url(../img/productos/AmpollaParf1.jpg);
+	background-repeat: no-repeat;
+}
+article section div.divsiete p{
+	margin: 30px 30px 10px 390px;
+	text-align: justify
+}
+
+article section div.divocho{
+	margin: 10px 10px 20px 10px;
+	background-image: url(../img/productos/S%C3%A9rumAlfaParf.jpg);
+	background-repeat: no-repeat;
+}
+article section div.divocho p{
+	margin: 30px 30px 10px 340px;
+	text-align: justify;
+}
+
+article section div.divnueve{
+	margin: 10px 20px 20px 10px;
+	background-image: url(../img/productos/Restaurador1.jpg);
+	background-repeat: no-repeat
+}
+article section div.divnueve p{
+	margin: 30px 30px 10px 300px;
+	text-align: justify;
+}
+
+/*-------------------------------FOOTER-------------------------*/
+footer{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+	position: relative;
+	z-index: 5;
+	top: 155px;
+	
+}
+
+/*-----------------------------rows---------------------------*/
+footer .rows{
+	width: 100%;
+	height: 400px;
+	background-color: blue;
+}
+
+/*--------------------------info---------------------------*/
+footer .rows .info{
+	width: 34%;
+	height: 400px;
+	/*background-color: olive;*/
+	float: left;
+	background-image: url(../img/Peluqueria/peluqueria8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+footer .rows .enlaces div{
+	margin-top: 40px;
+	margin-left: 260px
+}
+
+/*-------------------------h1,h3,h4----------------------*/
+footer .rows .info h1, h3, h4{
+	text-align: center;
+	color: white
+}
+
+footer .rows .info h1 {
+	font-family: 'Cabin Sketch', cursive;
+	/*color: white;*/
+	font-size: 50px;
+	/*float: right;*/
+	/*margin-left: 300px;*/
+	margin-top: 120px;
+	margin-bottom: 0px;
+
+}
+
+footer .rows .info h3{
+	color: white;
+	font-size: 18px;
+	/*float: right;*/
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+footer .rows .info h4{
+	margin-bottom: -15px;
+}
+
+/*-----------------------------enlaces----------------------*/
+footer .rows .enlaces{
+	width: 66%;
+	height: 400px;
+	/*background-color: grey;*/
+	float: right;
+	background-image: url(../img/Peluqueria/peluqueria4.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+
+
+
+
+
+/*-----------------------------------copyright------------------*/
+footer .copyright{
+	width: 100%;
+	height: 25px;
+	color: #79787b;
+    padding-top: 7px;
+	/*padding-bottom: 0px; */
+	/*margin-bottom: 7px;*/
+	text-align: center;
+	background-color: #201F23;
+}
+
+
+
+
+
+

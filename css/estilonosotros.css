@@ -1,0 +1,355 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+</style> 
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+/* CABECERA */
+/*header a:visited{
+	position: relative;
+	top: 80px;
+}*/
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #201F23;
+	/*background-attachment: fixed;*/
+	/*background-color: red;*/
+	position: fixed;
+	z-index: 10;
+}
+
+header .logo{
+	width: 440px;
+	height: 80px;
+	float: left;
+	margin: 0px;
+	/*background-color: blue*/
+	/*border: 1px solid orange;*/
+	
+}
+
+header .logo div{
+	width: 70px;
+	height: 65px;
+	/*background-color: red;*/
+	float: left;
+	margin-top:7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 140px;
+	
+}
+
+header .logo  h1{
+	font-family: 'Cabin Sketch', cursive;
+	/*color: #D5BEAB;*/
+	color: #ECCD85;
+	font-size: 60px;
+	float: right;
+	/*font-weight: 100;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/*color: #ffffff;*/
+	/*background-color: red;*/
+}
+
+
+header nav{
+	width: 65%;
+	height: 80px;
+	/*background-color: orange;*/
+	float: right;
+	margin: 0px ;
+	padding-right: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+}
+
+/* MENU DE CABECERA */
+header nav ul{
+	height: 80px;
+	width: 100%;
+	list-style: none;
+	font-weight: bold;
+	float: right;
+	/*border: 2px solid blue;*/
+	margin: 0px;
+	/*background-color: blue;*/
+
+}
+
+
+header nav ul li{
+	
+	height: 17px;
+	float: left;
+	/*background-color: burlywood;*/
+	padding: 0px 10px;
+	margin: 31.5px 15px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header nav ul li a:hover{
+	color: #bcbbbd;
+}
+
+/*--------------------------------------imgppal--------------------------*/
+body .imgppal{
+	width: 100%;
+	height: 600px;
+	background-color: black;
+	z-index: -20;
+}
+body .imgppal img{
+	width: 100%;
+	height: 1600px;
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	position: relative;
+	top: -400px
+}
+
+/*.love{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/love.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}*/
+
+
+/*-----------------------------ARTICLE---------------------------*/
+
+article{
+	width: 100%;
+	height: 1000px;
+	/*background-color: #bcbbbd;*/
+	position: relative;
+	top: 150px;
+}
+
+article section {
+	width: 100%;
+	height: 1200px;
+	/*background-color: orange;*/
+	/*z-index: -6;*/
+	/*background-image: url(../img/Peluqueria/1.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	top: -500px*/
+}
+
+article section .divuno{
+	width: 100%;
+	height:550px;
+	background-color: white;
+	border-top: 1px solid #201F23;
+	padding-top: 25px
+}
+article section .divuno img{
+	width: 500px;
+	height: 335px;
+	margin-left: 100px;
+	float: left;
+}
+article section .divuno p{
+	display: inline-block;
+	margin-left: 200px;
+	font-size: 23px;
+	line-height: 0px;
+}
+article section .divuno .divunoparrafo{
+	margin-top: 75px;
+	
+}
+
+article section .divcontenedor{
+	width: 100%;
+	height:450px;
+	/*background-color: red;*/
+	margin-bottom: 25px;
+}
+
+article section .divdos{
+	width: 60%;
+	height:450px;
+	background-color: white;
+	float: left;
+	/*z-index: ;
+	/*position: relative;*/
+}
+
+/*----------------------h1 de Nosotros--------------*/
+article section .divdos h2{
+	font-size: 40px;
+	margin-left: 100px;
+	margin-top: 100px;
+	display:inline-block;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+article section .divdos p{
+	font-size: 23px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify;
+	color: #bcbbbd;
+	
+}
+
+article section .divtres{
+	width: 40%;
+	height:450px;
+	/*background-color: blue;*/
+	float: right;
+	/*position: relative;*/
+}
+
+article section .divtres .divimg{
+	width: 100%;
+	height:450px;
+	background-color: black;
+	/*background-image: url(../img/Peluqueria/1.jpg);
+	background-repeat: no-repeat;*/
+	/*position: absolute;*/
+	/*background-size: cover;*/
+	/*z-index: -5;
+	/*position: relative;*/
+	/*top: -450px;*/
+}
+
+article section .divtres .divimg img{
+	width: 100%;
+	height: 450px;
+}
+
+/*article section .divcuatro{
+	width: 100%;
+	height:350px;
+	background-color: red;*/
+}
+
+
+/*-------------------------------FOOTER-------------------------*/
+footer{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+}
+
+/*-----------------------------rows---------------------------*/
+footer .rows{
+	width: 100%;
+	height: 400px;
+	background-color: blue;
+}
+
+/*--------------------------info---------------------------*/
+footer .rows .info{
+	width: 35%;
+	height: 400px;
+	background-color: olive;
+	float: left;
+	background-image: url(../img/Peluqueria/peluqueria8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+footer .rows .enlaces iframe{
+	float: left;
+}
+footer .rows .enlaces div{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	margin-left: 140px;
+	text-align: center
+}
+footer .rows .enlaces div p{
+	margin: 10px;
+}
+footer .rows .enlaces div .textfooter{
+	margin-top: 90px
+}
+
+/*-------------------------h1,h3,h4----------------------*/
+footer .rows .info h1, h3, h4{
+	text-align: center;
+	color: white
+}
+
+footer .rows .info h1 {
+	font-family: 'Cabin Sketch', cursive;
+	/*color: white;*/
+	font-size: 50px;
+	/*float: right;*/
+	/*margin-left: 300px;*/
+	margin-top: 120px;
+	margin-bottom: 0px;
+
+}
+
+footer .rows .info h3{
+	color: white;
+	font-size: 18px;
+	/*float: right;*/
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+footer .rows .info h4{
+	margin-bottom: -15px;
+}
+
+/*-----------------------------enlaces----------------------*/
+footer .rows .enlaces{
+	width: 65%;
+	height: 400px;
+	background-color: grey;
+	float: right;
+	background-image: url(../img/Peluqueria/peluqueria4.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+
+
+
+
+
+/*-----------------------------------copyright------------------*/
+footer .copyright{
+	width: 100%;
+	height: 25px;
+	color: #79787b;
+    padding-top: 7px;
+	/*padding-bottom: 0px; */
+	/*margin-bottom: 7px;*/
+	text-align: center;
+	background-color: #201F23;
+}
+
+
+/*------------------------------transition-----------------------*/
+nav a{
+	transition: href 5s;
+}
