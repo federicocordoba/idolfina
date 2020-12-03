@@ -56,7 +56,7 @@ header .logo div{
 	
 }
 
-header .logo  h1{
+header .logo  h1.idolfina{
 	font-family: 'Cabin Sketch', cursive;
 	/*color: #D5BEAB;*/
 	color: #ECCD85;
@@ -187,9 +187,15 @@ article section .imgalisado img{
 	height: 480px;
 }
 
+
+
 /*PARA CARRUSEL DE IMAGENES ALISADO*/
 article section .imgalisado{
 	position: relative;
+}
+article section .carousel{
+	
+	z-index: -10;
 }
 
 /*article section .imgalisado i{
@@ -305,7 +311,7 @@ article section .textreflejos{
 article section .imgreflejos{
 	width: 40%;
 	height: 480px;
-	background-color: blue;
+	/*background-color: blue;*/
 	float: left;
 }
 
